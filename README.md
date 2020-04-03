@@ -46,13 +46,13 @@
 
 <p> Here's another fun bookmarklet from John from COM 2020 that lets you download Panopto Lectures. Install the bookmarklet as detailed above. Here's the bookmarklet:
 <br>
-<a href="javascript:(function(){if(prompt('Hit Ctrl/Cmd-C to copy name to clipboard', document.title.replace(/[:\\/]/g, '-')+'.mp4')!=null){location.href=$('meta[name="twitter:player:stream"]').attr('content');}})();">Download Panopto</a>
+<a href="javascript:(function(){if(prompt('Hit Ctrl/Cmd-C to copy name to clipboard', document.title.replace(/[:\\/]/g, '-')+'.mp4')!=null){location.href=%22('meta[name="twitter:player:stream"]').attr('content');}})();">Download Panopto</a>
 <br>
 Then just click the bookmark when you're on the video you want and it'll open the video in another tab. The alert box just gives you a chance to copy the name of the video. You can now download the video by right clicking and choosing "save as".
 </p>
 
 
-javascript:(function(){if(prompt('Hit Ctrl/Cmd-C to copy name to clipboard', document.title.replace(/[:\\/]/g, '-')+'.mp4')!=null){location.href=$('meta[name="twitter:player:stream"]').attr('content');}})();
+
 
 </body>
 </html>
