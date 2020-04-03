@@ -51,5 +51,8 @@
 Then just click the bookmark when you're on the video you want and it'll open the video in another tab. The alert box just gives you a chance to copy the name of the video. You can now download the video by right clicking and choosing "save as".
 </p>
 
+
+javascript:(function(){if(prompt('Hit Ctrl/Cmd-C to copy name to clipboard', document.title.replace(/[:\\/]/g, '-')+'.mp4')!=null){location.href=$('meta[name="twitter:player:stream"]').attr('content');}})();
+
 </body>
 </html>
