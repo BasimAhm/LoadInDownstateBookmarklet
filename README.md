@@ -47,7 +47,7 @@
 <br>
 <a href="javascript:(function(){if(prompt('Hit Ctrl/Cmd-C to copy name to clipboard', document.title.replace(/[:\\/]/g, '-')+'.mp4')!=null){location.href=$('meta[name=%22twitter:player:stream%22]').attr('content');}})();">Download Panopto</a>
 <br>
-Then just click the bookmark when you're on the video you want and it'll open the video in another tab. The alert box just gives you a chance to copy the name of the video. You can now download the video by right clicking and choosing "save as".
+Then just click the bookmark when you're on the video you want and it'll open the video in another tab. The alert box just gives you a chance to copy the name of the video (so you can paste it when saving the video). You can now download the video by right clicking and choosing "save as".
 </p>
 
 
