@@ -1,5 +1,5 @@
 # LoadInDownstateBookmarklet
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -40,8 +40,5 @@
 
 
 <hr>
-</div> <!-- end #content -->
-
-</div> <!-- end wrapper -->
 </body>
 </html>
