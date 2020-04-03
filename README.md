@@ -1,4 +1,4 @@
-# LoadInDownstateBookmarklet
+# Load In Downstate Proxy Bookmarklet
 
 <html lang="en">
 <head>
