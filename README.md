@@ -17,7 +17,7 @@
 
 <p>Tested and works with: UpToDate, Bates Visual Guide, BMJ Best Practice (if an article is already opened)</p>
 
-<p><b>Issues with Net Anatomy</b>, will load in the proxy but you’ll be on the nosubscription site. Probably easier to just bookmark the Downstate link to Net Anatomy, but you can theoretically use this and then just delete the “/nosubscription/notvalidip.htm” off the URL to access the main page.</p>
+<p><b>Issues with Net Anatomy:</b> Will load in the proxy but you’ll still be on the no subscription page. Probably easier to just bookmark the Downstate link to Net Anatomy, but you can theoretically use this and then just delete the “/nosubscription/notvalidip.htm” off the URL to access the main page.</p>
 
 <h3>How Do You Add It?</h3>
 
@@ -40,7 +40,16 @@
 
 <p>Once you've added this bookmark to your web browser, selecting it will attempt to reload your current page through the Libraries Proxy Server. If the page is one that you should be able to access through the Downstate library, you should get access to it.</p>
 
-
 <hr>
+
+<h3>Unrelated but... Panopto Downloading</h3>
+
+<p> Here's another fun bookmarklet from John from COM 2020 that lets you download Panopto Lectures. Install the bookmarklet as detailed above. Here's the bookmarklet:
+<br>
+<a href="javascript:(function(){if(prompt('Hit Ctrl/Cmd-C to copy name to clipboard', document.title.replace(/[:\\/]/g, '-')+'.mp4')!=null){location.href=$('meta[name="twitter:player:stream"]').attr('content');}})();">Download Panopto</a>
+<br>
+Then just click the bookmark when you're on the video you want and it'll open the video in another tab. The alert box just gives you a chance to copy the name of the video. You can now download the video by right clicking and choosing "save as".
+</p>
+
 </body>
 </html>
