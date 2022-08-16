@@ -10,9 +10,7 @@
 
 <h2>Proxy Server Bookmarklet</h2>
 
-<p>Shoutout to UB for using the same proxy service and giving me the idea to do this, and the below explaination of how to use it: </p>
-
-<p>The proxy bookmarklet lets you reload a web page through the Libraries EZproxy server. If the page you are visiting is one that the library has a subscription to, and you're presently off-campus, you will get immediate access to the resource once you've logged in with your NetID and password.</p>
+<p>The proxy bookmarklet lets you reload an open web page through the library's proxy server. If the page you are visiting is one that the library has a subscription to, and you're presently off-campus, you will get immediate access to the resource once you've logged in with your NetID and password.</p>
 
 <p>Tested and works with: UpToDate, Bates Visual Guide, BMJ Best Practice (if an article is already opened)</p>
 
